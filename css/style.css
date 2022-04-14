@@ -151,9 +151,17 @@ button:hover {
 
 .yellow-line {
     display: block;
-    margin: 0 auto;
-    padding-bottom: 18px;
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    margin: 0 auto 18px;
 }
+
+/*.yellow-line {*/
+/*    display: block;*/
+/*    margin: 0 auto;*/
+/*    padding-bottom: 18px;*/
+/*}*/
 
 .waiting-subheader {
     text-align: center;
