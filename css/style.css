@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #F9BF3B;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/*Hero block*/
+
+.hero-block {
+    height: 800px;
+    background: url("../img/bg.jpg") no-repeat fixed center center/cover;
+    padding: 30px 0 62px 0;
+}
+
+.logo .logo-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.slogan {
+    margin-top: 14px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.hero-inner-content {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.main-text h1 {
+    font-size: 40px;
+    color: #F9BF3B;
+    font-weight: 900;
+}
+
+.second-text {
+    font-weight: 900;
+    font-size: 80px;
+    color: white;
+    position: relative;
+}
+
+.second-text:before {
+    content: url("../img/line.jpg");
+    position: relative;
+    bottom: 25px;
+}
+
+.second-text:after {
+    content: url("../img/line.jpg");
+    position: relative;
+    bottom: 25px;
+}
+
+.third-text {
+    font-size: 40px;
+    color: #F9BF3B;
+    font-weight: 900;
+}
+
+.hero-inner-description {
+    padding-top: 20px;
+    color: white;
+    text-transform: none;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 28px;
+}
+
+.free {
+    text-transform: uppercase;
+    color: #F9BF3B;
+    font-weight: 700;
+}
+
+.btn {
+    padding-top: 72px;
+    padding-bottom: 70px;
+}
+
+.booking-btn {
+    width: 313px;
+    height: 72px;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    font-size: 17px;
+    color: white;
+    text-shadow: -1px -1px 0px rgba(0,0,0,0.21);
+    text-transform: uppercase;
+    border: none;
+    box-shadow: inset 0px -5px 0px 0px rgba(0,0,0,0.17);
+    outline: none;
+}
+
+.learn-more-text {
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 5px;
+}
+
+/*Waiting block*/
+
+.waiting-block {
+    height: 607px;
+    background-color: #EFEFEF;
+    padding: 85px 0 77px 0;
+}
+
+.waiting-header {
+    text-align: center;
+    padding-bottom: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.yellow-line {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 18px;
+}
+
+.waiting-subheader {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    padding-bottom: 45px;
+}
+
+.waiting-features-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.waiting-img {
+    width: 342px;
+    height: 201px;
+    display: block;
+    margin: 0 auto;
+}
+
+.waiting-features-item-text {
+    width: 370px;
+    height: 85px;
+    padding-top: 26px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+/*Optimization block*/
+
+.optimization-block {
+    height: 607px;
+    background: url("../img/woman_bg.png") no-repeat fixed left bottom;
+}
+
+.optimization-content {
+    position: relative;
+}
+
+.optimization-inner {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 420px;
+    top: 120px;
+}
+
+.optimization-inner-header {
+    color: #299CBD;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.optimization-inner-text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.optimization-inner-text-bold {
+    font-weight: bold;
+}
+
+
+/*Finish block*/
+
+.finish-block {
+    height: 447px;
+    background: url("../img/second_bg.jpg") no-repeat center center/cover;
+    padding: 85px 0 77px 0;
+}
+
+.finish-block-inner-header {
+    text-align: center;
+    padding-bottom: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.round {
+    width: 100px;
+    height: 100px;
+    background-color: #B4E2FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.finish-item-text {
+    padding-top: 24px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: white;
+    text-align: center;
+}
+
+.finish-items {
+    padding-top: 34px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Bonus*/
+
+.bonus {
+    height: 631px;
+    background-color: #EFEFEF;
+    padding-top: 85px;
+}
+
+.bonus-inner img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.bonus-inner-text {
+    text-align: center;
+    width: 1100px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+}
+
+.bonus-btn {
+    display: block;
+    margin: 0 auto;
+}
+
+/*Meeting*/
+
+.meeting {
+    height: 500px;
+    padding: 80px 0 63px 0;
+}
+
+.meeting-inner {
+    text-align: center;
+}
+
+.meeting-inner img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.meeting-header {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.meeting-date {
+    color: #299CBD;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.meeting-seats {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+}
+
+/*Footer*/
+
+.footer {
+    height: 160px;
+    background-color: #000000;
+    padding: 60px 0 70px 0;
+}
+
+.footer-support-links {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.footer-call-us-link {
+    display: flex;
+    justify-content: center;
+}
+
+.support {
+    border-right: 1px solid #888888;
+    padding-right: 10px;
+}
+
+.policy {
+    margin-left: 10px;
+}
+
+.footer a {
+    color: #888888;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+}
