@@ -18,6 +18,10 @@ body::-webkit-scrollbar-thumb {
     background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -25,6 +29,7 @@ body {
 .wrapper {
     width: 1140px;
     margin: 0 auto;
+    min-height: 100%;
 }
 
 button:hover {
